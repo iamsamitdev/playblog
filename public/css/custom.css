@@ -1,3 +1,86 @@
-body{
-    background-color: aquamarine;
+/**** Navbar ****/
+.nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.bg-light {
+    background-color: #09ad9e !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: gold;
+    border-bottom: 3px solid #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: gold;
+    border-bottom: 3px solid #fff;
+}
+
+footer {
+    font-size: 18px;
+}
+
+.box-register {
+    margin-top: 150px;
+    min-height: 80vh;
+}
+
+.jumbotron .display-3 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.jumbo-head {
+    margin-top: 90px;
+    padding: 20px 0px;
+}
+
+.blog-content {
+    min-height: 70vh;
+}
+
+.btn-register{
+    font-size: 20px;
+    color:gold;
+    text-transform: uppercase;
+}
+
+.btn-register:hover{
+    color:gold;
+}
+
+.inp-search
+{
+    font-size: 20px !important;
+}
+
+
+@media(max-width:667px) {
+
+    .nav-link{
+        text-align: center;
+    }
+
+    footer .text-left, footer .text-right {
+        text-align: center !important;
+    }
+
+    .btn-register{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mr-3{
+        margin-right: 0px !important;
+    }
 }

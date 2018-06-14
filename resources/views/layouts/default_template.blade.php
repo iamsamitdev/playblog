@@ -4,13 +4,8 @@
     @include('includes.head')
 </head>
 <body>
-    
-    @include('includes.header')
-
+    @include('includes.menu')
     @yield('content')
-
-    @include('includes.footer')
-    @include('includes.footer_asset')
-
+    @include('includes.foot')
 </body>
 </html>
